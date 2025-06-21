@@ -1,11 +1,10 @@
-
 // Manual word embeddings for intent classification
 export const wordEmbeddings: Record<string, number[]> = {
   // Smart Home words
   'lights': [1.0, 0.8, 0.2, 0.1, 0.0, 0.0],
   'light': [1.0, 0.8, 0.2, 0.1, 0.0, 0.0],
   'lamp': [1.0, 0.7, 0.3, 0.1, 0.0, 0.0],
-  'temperature': [0.9, 0.6, 0.1, 0.0, 0.2, 0.1],
+  'temp': [0.9, 0.6, 0.1, 0.0, 0.2, 0.1],
   'thermostat': [0.9, 0.6, 0.1, 0.0, 0.2, 0.1],
   'door': [0.8, 0.5, 0.1, 0.0, 0.0, 0.1],
   'lock': [0.8, 0.5, 0.1, 0.0, 0.0, 0.1],
